@@ -1,0 +1,21 @@
+package Ch04;
+
+import java.util.Scanner;
+
+public class C01Scanner {
+
+	public static void main(String[] args) {
+		//자동 import : ctrl + shift + o
+		
+		//스트림
+		//System.in  : 표준 입력 스트림 생성(요청 )
+		//system.out : 표준 출력 스트림 생성(요청)
+		Scanner sc = new Scanner(System.in);
+		System.out.printf("num1입력>>>");
+		int num1 = sc.nextInt(); //엔터,스페이스바
+		
+		System.out.printf("%d\n",num1);
+		sc.close();
+	}
+
+}

@@ -1,7 +1,5 @@
-INDEX VERSION 1.4+C:\Users\Administrator\Downloads\LCE\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-1238133201.index
-215949066.index
-983181400.index
-3738401771.index
-93136368.index
-2588602048.index
+INDEX VERSION 1.4+C:\Users\Administrator\Downloads\memory_java\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+687862475.index
+3697480196.index
+997900626.index
+160213684.index
