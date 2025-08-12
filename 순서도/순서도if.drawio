@@ -1,0 +1,104 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6" pages="2">
+  <diagram name="페이지-1" id="oMIDFhSOyzXopVLYjOd7">
+    <mxGraphModel dx="473" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QrQ4jMU8SuqcmLsQeElS-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QrQ4jMU8SuqcmLsQeElS-1" target="QrQ4jMU8SuqcmLsQeElS-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QrQ4jMU8SuqcmLsQeElS-1" value="나이 입력&lt;div&gt;age&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="60" y="140" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QrQ4jMU8SuqcmLsQeElS-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QrQ4jMU8SuqcmLsQeElS-4" target="QrQ4jMU8SuqcmLsQeElS-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QrQ4jMU8SuqcmLsQeElS-4" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="60" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QrQ4jMU8SuqcmLsQeElS-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QrQ4jMU8SuqcmLsQeElS-6" target="QrQ4jMU8SuqcmLsQeElS-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QrQ4jMU8SuqcmLsQeElS-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="QrQ4jMU8SuqcmLsQeElS-6" target="QrQ4jMU8SuqcmLsQeElS-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QrQ4jMU8SuqcmLsQeElS-6" value="age &amp;gt;= 8" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="60" y="250" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QrQ4jMU8SuqcmLsQeElS-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QrQ4jMU8SuqcmLsQeElS-8" target="QrQ4jMU8SuqcmLsQeElS-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QrQ4jMU8SuqcmLsQeElS-8" value="학교에 다닙니다" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="250" y="270" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QrQ4jMU8SuqcmLsQeElS-10" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="268" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QrQ4jMU8SuqcmLsQeElS-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QrQ4jMU8SuqcmLsQeElS-11" target="QrQ4jMU8SuqcmLsQeElS-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QrQ4jMU8SuqcmLsQeElS-11" value="첫번째 if 종료" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="45" y="450" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="QrQ4jMU8SuqcmLsQeElS-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QrQ4jMU8SuqcmLsQeElS-14" target="QrQ4jMU8SuqcmLsQeElS-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QrQ4jMU8SuqcmLsQeElS-14" value="no" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="338" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QrQ4jMU8SuqcmLsQeElS-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="QrQ4jMU8SuqcmLsQeElS-16" target="QrQ4jMU8SuqcmLsQeElS-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QrQ4jMU8SuqcmLsQeElS-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QrQ4jMU8SuqcmLsQeElS-16" target="QrQ4jMU8SuqcmLsQeElS-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QrQ4jMU8SuqcmLsQeElS-16" value="age &amp;lt; 8" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="60" y="590" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QrQ4jMU8SuqcmLsQeElS-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="QrQ4jMU8SuqcmLsQeElS-18" target="QrQ4jMU8SuqcmLsQeElS-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="807" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QrQ4jMU8SuqcmLsQeElS-18" value="학교에 안 감" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="220" y="610" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QrQ4jMU8SuqcmLsQeElS-20" value="&amp;nbsp;두번째 if 종료&amp;nbsp;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="20" y="760" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QrQ4jMU8SuqcmLsQeElS-22" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="688" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QrQ4jMU8SuqcmLsQeElS-23" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="598" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QrQ4jMU8SuqcmLsQeElS-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QrQ4jMU8SuqcmLsQeElS-25" target="QrQ4jMU8SuqcmLsQeElS-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QrQ4jMU8SuqcmLsQeElS-25" value="프로그램 종료" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="20" y="890" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QrQ4jMU8SuqcmLsQeElS-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.539;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QrQ4jMU8SuqcmLsQeElS-20" target="QrQ4jMU8SuqcmLsQeElS-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QrQ4jMU8SuqcmLsQeElS-27" value="end" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1030" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="E4cmw4dOYX9DhPLB-f03" name="페이지-2">
+    <mxGraphModel dx="473" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

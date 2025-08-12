@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Ch05.C02exma&apos; to &apos;C02exam&apos;&#x0D;&#x0A;- Original project: &apos;JAVA01_hye&apos;&#x0D;&#x0A;- Original element: &apos;Ch05.C02exma&apos;&#x0D;&#x0A;- Renamed element: &apos;Ch05.C02exam&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;C02exma&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Ch05{C02exma.java[C02exma" matchStrategy="1" name="C02exam" qualified="false" references="true" similarDeclarations="false" stamp="1754961647590" textual="false" version="1.0"/>
+</session>

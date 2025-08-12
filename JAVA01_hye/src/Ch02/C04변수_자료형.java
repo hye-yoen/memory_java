@@ -1,12 +1,12 @@
-package Ch02;
-
-import java.nio.charset.StandardCharsets;
-
-import Ch01.C01SystemOut;
-
-public class C04변수_자료형 {
-
-	public static void main(String[] args) {
+//package Ch02;
+//
+//import java.nio.charset.StandardCharsets;
+//
+//import Ch01.C01SystemOut;
+//
+//public class C04변수_자료형 {
+//
+//	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
 		//--------------------
@@ -142,25 +142,25 @@ public class C04변수_자료형 {
 		//클래스 자료형
 		//클래스 자료형으로 만든 변수는 '참조변수'라고 적고
 		//참조변수는 데이터가 저장된 위치정보(메모리주소)이 저장된다.
-		int n1 = 10;
-		byte n2 = 20;
-		char n3 = 40;
-		
-		String name = "홍길동";
-		String job = "프로그래머";
-		System.out.println(name);
-		System.out.println(job);
-		
-		System.out.println("UTF-8기준 지정 크기: " + name.getBytes(StandardCharsets.UTF_8).length);
-		System.out.println("UTF-8기준 지정 크기: " + job.getBytes(StandardCharsets.UTF_8).length);
-		
-		//사이즈 확인
-		char ch = '홍';		//16bit == 2byte 사용
-		String str = "홍"; 	//24bit == 3byte 사용
-		
-		System.out.println("ch 실제크기: " +Integer.toBinaryString(ch).length() );
-		System.out.println("str실제크기 : " + str.getBytes(StandardCharsets.UTF_8).length);
-		
-	}
-
-}
+//		int n1 = 10;
+//		byte n2 = 20;
+//		char n3 = 40;
+//		
+//		String name = "홍길동";
+//		String job = "프로그래머";
+//		System.out.println(name);
+//		System.out.println(job);
+//		
+//		System.out.println("UTF-8기준 지정 크기: " + name.getBytes(StandardCharsets.UTF_8).length);
+//		System.out.println("UTF-8기준 지정 크기: " + job.getBytes(StandardCharsets.UTF_8).length);
+//		
+//		//사이즈 확인
+//		char ch = '홍';		//16bit == 2byte 사용
+//		String str = "홍"; 	//24bit == 3byte 사용
+//		
+//		System.out.println("ch 실제크기: " +Integer.toBinaryString(ch).length() );
+//		System.out.println("str실제크기 : " + str.getBytes(StandardCharsets.UTF_8).length);
+//		
+//	}
+//
+//}

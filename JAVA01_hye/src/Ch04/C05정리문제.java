@@ -1,4 +1,5 @@
 package Ch04;
+import java.util.Scanner;
 
 public class C05정리문제 {
 	public static void main(String[] args) {
@@ -15,7 +16,7 @@ public class C05정리문제 {
 //		문제
 //		--------------------------------------------------------
 //		1 Scanner 를 이용해서 키보드로 입력한 두수를 덧셈하여 결과를 출력해보세요
-		Scanner sc = new Scanner(System.in);
+		
 		
 		
 //
@@ -34,9 +35,22 @@ public class C05정리문제 {
 //		이름 : 홍길동
 //		주민번호 : 123456
 //		PH : 010-222-3333
-//		----------------------------
-//
-//
+//		----------------------------	
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("이름 입력>>>");
+		String name = sc.next();
+		System.out.printf("%s님의 나이 입력하삼",name);
+		int age = sc.nextInt();
+		System.out.printf("%s님의 주소 입력하삼",name);
+		sc.nextLine();
+		String addr = sc.nextLine();
+		
+		System.out.printf("%s 님의 나이는 %d세 주소 : %S입니다. \n",name,age,addr);
+		
+		sc.close();
+		
+		
 //
 //		[답]
 //		1.
